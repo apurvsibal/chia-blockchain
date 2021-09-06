@@ -53,7 +53,7 @@ kwargs = dict(
     python_requires=">=3.7, <4",
     keywords="chia blockchain node",
     install_requires=dependencies,
-    setup_requires=["setuptools_scm"],
+    setup_requires=["setuptools_scm==1.15.0"],
     extras_require=dict(
         uvloop=["uvloop"],
         dev=dev_dependencies,
